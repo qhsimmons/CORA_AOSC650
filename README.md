@@ -45,7 +45,7 @@ This notebook retrieves observed hourly water levels from NWLON stations using C
   - University of North Carolina’s [Renaissance Computing Institute](https://renci.org/)
   - [University of Hawaii Sea Level Center](https://uhslc.soest.hawaii.edu/)
 
-#  How to Cite: 
+#  How to Cite 
    - NOAA's Coastal Ocean Reanalysis (CORA) Dataset was accessed on DATE from https://registry.opendata.aws/noaa-nos-cora using notebooks from https://github.com/NOAA-CO-OPS/CORA-Coastal-Ocean-Reanalysis-CORA
 
 #  Additional Reference codes: 
