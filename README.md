@@ -45,6 +45,9 @@ This notebook retrieves observed hourly water levels from NWLON stations using C
   - University of North Carolina’s [Renaissance Computing Institute](https://renci.org/)
   - [University of Hawaii Sea Level Center](https://uhslc.soest.hawaii.edu/)
 
+#  How to Cite: 
+   - NOAA's Coastal Ocean Reanalysis (CORA) Dataset was accessed on DATE from https://registry.opendata.aws/noaa-nos-cora using notebooks from https://github.com/NOAA-CO-OPS/CORA-Coastal-Ocean-Reanalysis-CORA
+
 #  Additional Reference codes: 
    - [Dasher Triangular Meshes](https://github.com/holoviz/datashader/blob/f23de596f9adcb8188d48e6b163c36c913cd9912/examples/user_guide/6_Trimesh.ipynb#L11)
    - [Reproducable Notebooks for Maximum Water Levels](https://github.com/reproducible-notebooks/hurricane-ike-water-levels/tree/master)
