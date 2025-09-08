@@ -31,6 +31,17 @@ This notebook allows users to upload a .csv file of extracted CORA time series a
 ## 5.  CORA_Compare_Time-Series.ipynb
 This notebook retrieves observed hourly water levels from NWLON stations using CO-OPS [Data API](https://tidesandcurrents.noaa.gov/api-helper/url-generator.html) to compare with CORA data corresponding to the same location. 
 
+# Change Log
+A tracker for known modeling issues, resolutions, versioning, and update release schedules
+
+## Model Domains: 
+  - CORA: Coastal Ocean Reanalysis
+  - GEC: CORA for the Gulf, East Coast/Atlantic, and Caribbean
+  - Pac: CORA for the U.S. Pacific, Hawaii, and southern Alaska 
+
+| Domain | Issue| Reason | Status | Version | Date | 
+| ------ | ---- | ------ | ------ | ------- | ---- |
+| GEC | Initial data production | Preliminary release for water level and wave validation | Complete | 0.9 | 2022 |
 
 # Additional Contact Information:
   - Landing Page: https://tidesandcurrents.noaa.gov/cora.html
