@@ -35,7 +35,7 @@ This notebook retrieves observed hourly water levels from NWLON stations using C
 A tracker for known modeling issues, resolutions, versioning, and update release schedules
 
 ## Model Domains: 
-  - <style>H2{color:greenyellow;}</style>: Coastal Ocean Reanalysis
+  - <code style="color : greenyellow">CORA</code>: Coastal Ocean Reanalysis
   - <code style="color : darkorange">GEC</code>: CORA for the Gulf, East Coast/Atlantic, and Caribbean
   - <code style="color : aqua">Pac</code>: CORA for the U.S. Pacific, Hawaii, and southern Alaska 
 
