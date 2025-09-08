@@ -47,7 +47,8 @@ A tracker for known modeling issues, resolutions, versioning, and update release
 | GEC | Phase and amplitude lag for wave modeling around extreme events | Improving wave convergence parameters in SWAN to better model waves in CORA-GEC | In Testing | 1.2 | 2025
 
 
-
+## NOTICE: 
+  | [CORA-GEC v1.1]9https://noaa-nos-cora-pds.s3.amazonaws.com/index.html#V1.1/) wave datasets (swan_DIR.63_YYYY.nc, swan_HS.63_YYYY.nc, swan_TPS.63_YYYY.nc),  model wave amplitude lower and out of phase with observations at peak water levels during extreme weather events. This anomaly is due to unconstrained wave convergence parameters during [ADCIRC](https://www.erdc.usace.army.mil/Media/Fact-Sheets/Fact-Sheet-Article-View/Article/476698/advanced-circulation-model/) and [SWAN]9https://www.tudelft.nl/en/ceg/about-faculty/departments/hydraulic-engineering/sections/environmental-fluid-mechanics/research/swan) model coupling. Routine, high-frequency waves compare well with observations and during spectral analysis. A resolution is in testing and scheduled for release as CORA-GEC v1.2 in early 2026. |
 
 
 
