@@ -42,6 +42,14 @@ A tracker for known modeling issues, resolutions, versioning, and update release
 | Domain | Issue| Reason | Status | Version | Date | 
 | ------ | ---- | ------ | ------ | ------- | ---- |
 | GEC | Initial data production | Preliminary release for water level and wave validation | Complete | 0.9 | 2022 |
+| GEC | Gap filling with machine learning| Filling gaps in historical water levels with machine learning to improve data assimilation. | Complete | 1.0 | 2023 |
+| GEC | Machine learning techniques incorrectly filled historical station records, inverting long term sea level trends. | Replacing modeled historical hourly water levels with combined historical station observations. | Complete | 1.1 | 2024 |
+| GEC | Phase and amplitude lag for wave modeling around extreme events | Improving wave convergence parameters in SWAN to better model waves in CORA-GEC | In Testing | 1.2 | 2025
+
+
+
+
+
 
 # Additional Contact Information:
   - Landing Page: https://tidesandcurrents.noaa.gov/cora.html
