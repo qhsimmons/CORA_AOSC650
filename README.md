@@ -31,13 +31,13 @@ This notebook allows users to upload a .csv file of extracted CORA time series a
 ## 5.  CORA_Compare_Time-Series.ipynb
 This notebook retrieves observed hourly water levels from NWLON stations using CO-OPS [Data API](https://tidesandcurrents.noaa.gov/api-helper/url-generator.html) to compare with CORA data corresponding to the same location. 
 
-# Change Log
+# <code style="color : cyan">Change Log</code>
 A tracker for known modeling issues, resolutions, versioning, and update release schedules
 
 ## Model Domains: 
-  - CORA: Coastal Ocean Reanalysis
-  - GEC: CORA for the Gulf, East Coast/Atlantic, and Caribbean
-  - Pac: CORA for the U.S. Pacific, Hawaii, and southern Alaska 
+  - <code style="color : greenyellow">CORA</code>: Coastal Ocean Reanalysis
+  - <code style="color : darkorange">GEC</code>: CORA for the Gulf, East Coast/Atlantic, and Caribbean
+  - <code style="color : aqua">Pac</code>: CORA for the U.S. Pacific, Hawaii, and southern Alaska 
 
 | Domain | Issue| Reason | Status | Version | Date | 
 | ------ | ---- | ------ | ------ | ------- | ---- |
@@ -47,8 +47,8 @@ A tracker for known modeling issues, resolutions, versioning, and update release
 | GEC | Phase and amplitude lag for wave modeling around extreme events | Improving wave convergence parameters in SWAN to better model waves in CORA-GEC | In Testing | 1.2 | 2025
 
 
-## NOTICE: 
-  | [CORA-GEC v1.1](https://noaa-nos-cora-pds.s3.amazonaws.com/index.html#V1.1/) wave datasets (swan_DIR.63_YYYY.nc, swan_HS.63_YYYY.nc, swan_TPS.63_YYYY.nc),  model wave amplitude lower and out of phase with observations at peak water levels during extreme weather events. This anomaly is due to unconstrained wave convergence parameters during [ADCIRC](https://www.erdc.usace.army.mil/Media/Fact-Sheets/Fact-Sheet-Article-View/Article/476698/advanced-circulation-model/) and [SWAN](https://www.tudelft.nl/en/ceg/about-faculty/departments/hydraulic-engineering/sections/environmental-fluid-mechanics/research/swan) model coupling. Routine, high-frequency waves compare well with observations and during spectral analysis. A resolution is in testing and scheduled for release as CORA-GEC v1.2 in early 2026. |
+## <code style="color : gold">NOTICE</code>: 
+[CORA-GEC v1.1](https://noaa-nos-cora-pds.s3.amazonaws.com/index.html#V1.1/) wave datasets (swan_DIR.63_YYYY.nc, swan_HS.63_YYYY.nc, swan_TPS.63_YYYY.nc),  model wave amplitude lower and out of phase with observations at peak water levels during extreme weather events. This anomaly is due to unconstrained wave convergence parameters during [ADCIRC](https://www.erdc.usace.army.mil/Media/Fact-Sheets/Fact-Sheet-Article-View/Article/476698/advanced-circulation-model/) and [SWAN](https://www.tudelft.nl/en/ceg/about-faculty/departments/hydraulic-engineering/sections/environmental-fluid-mechanics/research/swan) model coupling. Routine, high-frequency waves compare well with observations and during spectral analysis. A resolution is in testing and scheduled for release as CORA-GEC v1.2 in early 2026. 
 
 
 
