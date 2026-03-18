@@ -2,6 +2,7 @@ name: cora
 channels:
   - defaults
 dependencies:
+  - python=3.11
   - numpy
   - matplotlib
   - scipy
@@ -14,14 +15,13 @@ dependencies:
   - bokeh
   - datashader
   - cartopy
-  - jupyter
-  - jupyter_bokeh
+  - notebook
   - s3fs
   - folium
   - branca
   - pip
   - pip:
-      - cmocean 
+      - cmocean
       - geopy
       - holoviews
       - geoviews
